@@ -1,0 +1,57 @@
+
+
+
+html, body{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	background-color:#333;
+}
+
+body {
+	transition: all 1s;
+	-moz-transition: all 1s; /* Firefox 4 */
+	-webkit-transition: all 1s; /* Safari and Chrome */
+	-o-transition: all 1s; /* Opera */
+}
+
+body {
+	position: relative;
+	padding-top: 40px;
+	overflow: hidden;
+}
+
+.main-container {
+	padding: 0;
+	margin: 0;
+	height:100%;
+	width:100%;
+	overflow:hidden; 
+}
+
+
+.mx-graph {
+	overflow:hidden;
+	cursor:default;
+	margin:0;
+	padding:0;
+	float: right;
+	height: 100%;
+	width: 50%;
+}
+
+body.syntax_error {
+	background-color:#A33 ;
+}
+
+#editor { 
+	margin:0;
+	padding:0;
+
+	float: left;
+	height: 100%;
+	width: 50%;
+
+	border:0px;
+}
