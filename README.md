@@ -1,11 +1,6 @@
-3DWeaponsServer
+js-graph.io
 ===============
 
-Appengine serverside for 3DWeapons app.
-Provides a REST interface to the data.
-When the HTTP clients request an html response it feeds the data trough mustache template,
-in this way the HTML pages are generated.
+Client side website which can be deployed on appengine.
 
-Their is a clear seperation between database, rest interface, templates.
-
-database -(objectify)-> http rest interface -(json)-> mustache -(html)-> web browser
+Allows generating object graphs and prototype graphs from javascript code.
